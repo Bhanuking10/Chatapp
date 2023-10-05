@@ -1,0 +1,40 @@
+.msg_area{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction:row;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+.brand{
+   display: flex;
+   
+    
+
+    
+}
+.textarea{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background:#fbfbfb;
+}
+.msg{
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 40px;
+    position: relative;
+}
+.incoming{
+    background: #8f8f8f;
+    position: absolute;
+    right: 0;
+}
+.outgoing{
+    margin-top: auto;
+    position: absolute;
+    left: 0;
+}
